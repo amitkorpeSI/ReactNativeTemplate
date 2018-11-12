@@ -1,0 +1,25 @@
+const COLORS = {
+    GOOGLE_PLUS: '#dd4b39',
+    FACEBOOK: '#3b5998',
+    TWITTER: '#1DA1F2',
+    WHATS_APP: '#7ad06d',
+    INSTAGRAM: '#125688',
+    DEFAULT: '#2D2828',
+    BLACK: '#2d2828',
+    WHITE: '#FFF',
+    GRAY: '#575757',
+    FANTASY_PRIMARY_COLOR: '#0389FA',
+    FANTASY_SECONDARY_COLOR: '#5AF7DC',
+    PRIMARY: '#0389FA',
+    PRIMARY_DARK: '#276FED',
+    SECONDARY: '#5AF7DC',
+    UCL_DANGER: '#d91014',
+    CLIENT_P_C_R: 255,
+    CLIENT_P_C_G: 22,
+    CLIENT_P_C_B: 255,
+    CLIENT_S_C_R: 90,
+    CLIENT_S_C_G: 247,
+    CLIENT_S_C_B: 220
+};
+export default COLORS;
+  
