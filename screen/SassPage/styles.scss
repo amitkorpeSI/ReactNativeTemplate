@@ -1,0 +1,36 @@
+//USING VARIABLES 
+$gray: #53464f;
+$black: #000;
+
+//--TRANSFORM--
+@mixin transform($transform) {
+    transform: $transform;
+}
+
+///////////////////////////////////
+.container {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+.FormWrp{
+    flex: 1;
+    // align-items: center;
+    // justify-content: flex-start;
+}
+.inputText{
+    width: 300;
+    height: 50;
+    color: $black;
+    font-size: 20;
+}
+.heading{
+    font-size: 30;
+    color: tomato;
+    font-weight: bold;
+    margin-bottom: 10
+}
+.primary{
+    font-size: 20;
+    color: slateblue;
+}
