@@ -17,6 +17,17 @@ export default EStyleSheet.create({
     textStyle:{
         fontSize:22,
         fontWeight:'bold',
-        color:'white'
-    }
+        color:'white',
+        // '@media (min-height:812)':{            
+        //     fontSize:30,
+        //     color:'red'    
+        // }
+    },
+    // '@media (min-height:812)':{
+    //     textStyle:{
+    //         fontSize:30,
+    //         color:'red'
+    //     }
+    // }
+
 })

@@ -24,8 +24,13 @@ EStyleSheet.build({});
 import HomeComponent from './screen/HomePage';
 import InfoComponent from './screen/infoPage';
 import SvgPage from './screen/SvgPage';
+import AnimationPage from './screen/AnimationPage';
+import SassScreenPage from './screen/SassPage';
+import LoadingSkeletonScreen from './screen/LoadingSkeleton';
+import BoxShadowScreen from './screen/BoxShadow';
+// import GaussianBlurScreen from './screen/GaussianBlur';
 //screen names
-import {Home, Info, Settings, Cloud, SvgScreen} from './screenNames';
+import {Home, Info, Settings, Cloud, SvgScreen, AnimationScreen, LoadingSkeleton} from './screenNames';
 var {width, height} = Dimensions.get('window');
 
 let routeConfig={
@@ -40,7 +45,27 @@ let routeConfig={
   SvgScreen: {
     path : '/SvgScreen',
     screen : SvgPage
-  }
+  },
+  AnimationScreen: {
+    path : '/AnimationScreen',
+    screen : AnimationPage
+  },
+  SassScreen: {
+    path : '/SassScreen',
+    screen : SassScreenPage
+  },
+  LoadingSkeleton: {
+    path : '/LoadingSkeleton',
+    screen : LoadingSkeletonScreen
+  },
+  BoxShadow: {
+    path : '/BoxShadow',
+    screen : BoxShadowScreen
+  },
+  // GaussianBlur: {
+  //   path : '/GaussianBlur',
+  //   screen : GaussianBlurScreen
+  // }
 };
 let DrawerNavigatorConfig={
   initialRouteName: Home,

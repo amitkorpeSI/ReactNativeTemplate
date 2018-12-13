@@ -33,6 +33,9 @@ class SvgPage extends Component{
         return(
         <View style={{flex:1,backgroundColor:'#f2f2f2',alignItems:'center'}}>
             <HeaderComponent {...this.props}/>
+
+
+
             <View  style={{flex:1,backgroundColor:'#f2f2f2',alignItems:'center', justifyContent:'center'}}>
                 <Svg width="140" height="140" >
             
@@ -80,7 +83,7 @@ class SvgPage extends Component{
                     <Circle cx="70" cy="70" r="56" fill="url(#green)"/>
 
                     <Path id="" fill="#785FF0" d="M70,70 L70,10 A60,60 0 0,1 129.688856,76.034701" /> 
-                    <Path fill="url(#gray)" d="M70,70 L70,15 A55,55 0 0,1 124.698856,75.474701" stroke="transpare" stroke-width="5"/>   
+                    <Path fill="url(#gray)" d="M70,70 L70,15 A55,55 0 0,1 124.698856,75.474701" stroke="transparent" stroke-width="5"/>   
                     <Rect x="69" y="10" width="4" height="60" fill="#fff" fill-opacity="1"></Rect>
                     <Rect x="69" y="10" width="4" height="61" fill="#fff" fill-opacity="1" transform="rotate(95 70 70)"></Rect>
                 
@@ -92,3 +95,4 @@ class SvgPage extends Component{
 }
 
 export default SvgPage;
+
